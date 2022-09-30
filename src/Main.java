@@ -10,7 +10,7 @@ public class Main {
                 Scanner scan = new Scanner(System.in);
                 String s = scan.nextLine();
                 s = s.replaceAll(" ", "");
-                System.out.println("Резуьтат " + calc(s));
+                System.out.println("Result " + calc(s));
             } catch (Exception e) {
                 System.out.println(e.getMessage());
             }
